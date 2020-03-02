@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">amproj</string>
+<string name="hello_world">Hello world!</string>
+<string name="menu_settings">Settings</string>
+<string name="head_title">Event Reminder</string>
+<string name="head_add">Add Activity</string>
+<string name="title_activity_birthday">BirthdayActivity</string>
+<string name="add_annyversary_event">AnniversaryEvent</string>
+<string name="add_custom">AddCustomEvent</string>
+<string name="view_all_event_activity">ViewAllEvent</string>
+<string name="update_event_activity">UpdateEvent</string>
+<string name="delete_events_activity">DeleteEvents</string>
+
+<color name="SkyBlue">#87CEEB</color>
+
+<dimen name="bhieght">90dp</dimen>
+<dimen name="bwidth">110dp</dimen>
+
+<string name="tvsnd">Send To :</string>
+<string name="tvrmdto">Remind To :</string>
+<string name="tvdate">Date :</string>
+<string name="tvtime">Time :</string>
+<string name="tvnote">Note :</string>
+<string name="tvrpt">Repeat :</string>
+<string name="bsv">Save</string>
+<string name="title_activity_date_picker">DatePickerActivity</string>
+
+<string-array name="Repeat_Mode">
+    <item>Once</item>
+    <item>Daily</item>
+    <item>Weekly</item>
+    <item>Monthly</item>
+    <item>Yearly</item>
+</string-array>
+
+</resources>

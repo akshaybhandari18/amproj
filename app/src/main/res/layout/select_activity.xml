@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SkyBlue"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:text="Select Event Type"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bbd"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:drawableLeft="@drawable/bd"
+        android:onClick="bdayOnButtonClick"
+        android:text="Set Birthday"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/banvsr"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/anvrs"
+        android:onClick="asaryOnButtonClick"
+        android:text="Set Anniversary"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bcstm"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/cust"
+        android:onClick="cstmOnButtonClick"
+        android:text="Customs"
+        android:textSize="20dp" />
+
+</LinearLayout>

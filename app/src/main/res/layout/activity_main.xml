@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/badd"
+            android:layout_width="@dimen/bwidth"
+            android:layout_height="@dimen/bhieght"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:drawableBottom="@drawable/a1"
+            android:drawableTop="#FFFFFF"
+            android:onClick="addOnButtonClick"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/bvw"
+            android:layout_width="@dimen/bwidth"
+            android:layout_height="@dimen/bhieght"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/badd"
+            android:drawableBottom="@drawable/v"
+            android:drawableTop="#FFFFFF"
+            android:onClick="viewOnButtonClick"
+            android:text="View" />
+    </RelativeLayout>
+
+</LinearLayout>
